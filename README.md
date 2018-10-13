@@ -14,9 +14,7 @@ If you find this dataset useful in your research, please consider citing:
 
 ### Details:
 
-Fashion-ZSD is a toy dataset that we generate for evaluation of ZSD methods, based on the [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset. Fashion-MNIST originally consists of Zalando’s article images with associated labels. This dataset contains 70,000 grayscale images of size 28x28, and 10 classes. For Zero-shot detection task, we split the dataset into two disjoint sets; seven classes are used in training and three classes are used as the unseen test classes.
-
-The dataset consists of images from four different scenarios. From left-to-right in image, (a)full objects only, (b)partial occlusions, (c)clutter regions included, and (d)a scene withboth partial occlusions and clutter regions. Ground truth object regions are shown with green and noise regions are shown in red boxes.
+Fashion-ZSD is a toy dataset that we generate for evaluation of ZSD methods, based on the [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset. Fashion-MNIST originally consists of Zalando’s article images with associated labels. This dataset contains 70,000 grayscale images of size 28x28, and 10 classes. For Zero-shot detection task, we split the dataset into two disjoint sets; seven classes are used in training and three classes are used as the unseen test classes. We generate multi-object images such that there are three different objects in each image. Randomly cropped objects are utilized to create clutter regions. As shown in Figure, we consider four scenarios: no noise or occlusion, scenes with partial occlusions, those with clutter, and, finally scenes with both partial occlusions and clutter regions. 8000 images of the resulting 16333 training images are held out for validation purposes. As a result, we obtain the Fashion-ZSD dataset with 8333 training, 8000 validation and 6999 test images. In the image below, ground truth object regions are shown with green and noise regions are shown in red boxes.
 
 <p align="center">
 <img src="data.png" align="center" width="500px" height="150px"/>
