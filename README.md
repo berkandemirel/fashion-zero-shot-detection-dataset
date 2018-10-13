@@ -5,7 +5,7 @@ Fashion-ZSD is a toy dataset that we generate for evaluation of ZSD methods, bas
 The dataset consists of images from four different scenarios. From left-to-right in image, (a)full objects only, (b)partial occlusions, (c)clutter regions included, and (d)a scene withboth partial occlusions and clutter regions. Ground truth object regions are shown with green and noise regions are shown in red boxes.
 
 <p align="center">
-<img src="data.png" align="center" width="500px" height="250px"/>
+<img src="data.png" align="center" width="500px" height="150px"/>
 </p>
 
 Training Classes:
