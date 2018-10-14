@@ -22,8 +22,8 @@ Fashion-ZSD is a toy dataset that we generate for evaluation of ZSD methods, bas
 
 
 ### Content:
-This repo contains:
-* Training, validation and test part of Fashion-ZSD dataset.
+This repo consists of:
+* Training, validation and test splits of the proposed Fashion-ZSD dataset.
 * Word embedding vectors of training and test classes.
 * Evaluation script.
 
