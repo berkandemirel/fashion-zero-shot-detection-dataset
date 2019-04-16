@@ -3,12 +3,12 @@ This repository contains Fashion-ZSD dataset of the [Zero-Shot Object Detection 
 ### Citing:
 
 If you find this dataset useful in your research, please consider citing:
-
-    @article{demirel2018zero,
-        title={Zero-Shot Object Detection by Hybrid Region Embedding},
-        author={Demirel, Berkan and Cinbis, Ramazan Gokberk and Ikizler-Cinbis, Nazli},
-        journal={arXiv preprint arXiv:1805.06157},
-        year={2018}
+    
+    @inproceedings{Demirel2018ZeroShotOD,
+      title={Zero-Shot Object Detection by Hybrid Region Embedding},
+      author={Berkan Demirel and Ramazan Gokberk Cinbis and Nazli Ikizler-Cinbis},
+      booktitle={BMVC},
+      year={2018}
     }
 
 
