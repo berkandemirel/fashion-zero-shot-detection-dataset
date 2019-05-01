@@ -6,7 +6,7 @@ If you find this dataset useful in your research, please consider citing:
     
     @inproceedings{Demirel2018ZeroShotOD,
       title={Zero-Shot Object Detection by Hybrid Region Embedding},
-      author={Berkan Demirel and Ramazan Gokberk Cinbis and Nazli Ikizler-Cinbis},
+      author = {Demirel, Berkan and Cinbis, Ramazan Gokberk and Ikizler-Cinbis, Nazli},
       booktitle={BMVC},
       year={2018}
     }
